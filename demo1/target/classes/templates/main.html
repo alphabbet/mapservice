@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{css/bootstrap-theme.css}">
+    <script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
+    <script type="text/javascript" th:src="@{js/jquery-1.11.1.min.js}"></script>
+</head>
+<body>
+<div class="panel panel-primary" >
+    <div class="panel-heading"></div>
+    <h3 class="panel-title">Hello World</h3>
+</div>
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <h3 class="panel-title">信息列表</h3>
+    </div>
+    <div class="panel-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a th:href=""><img src="img/java.jpg" alt="图书封面"></a>
+                    <div class="captio">
+                        <h4>Java编程思想</h4>
+                        <p>james</p>
+                        <p>china</p>
+                        <p>50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
